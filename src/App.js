@@ -52,7 +52,8 @@ export default function App() {
         <h1 className="text-center">Loading...</h1>
       )}
       <div className="w-full text-center my-16">
-        Coded with ☕ and Submitted by <span className="text-blue-500"><a href="https://github.com/KG-1510" target="_blank" rel="noopener noreferrer">Kushagra Gupta</a></span>
+        Coded with ☕ and Submitted by <span className="text-blue-500"><a href="https://github.com/KG-1510" target="_blank" rel="noopener noreferrer">Kushagra Gupta</a></span><br></br>
+        <span className="text-blue-500"><a href="https://github.com/KG-1510/github-externship-symblai-application" target="_blank" rel="noopener noreferrer">Link </a></span> to GitHub repository
       </div>
     </div>
   );
