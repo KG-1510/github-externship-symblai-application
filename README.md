@@ -33,6 +33,10 @@ Click [here](https://docs.google.com/document/d/1f37f1LPgP_-3DyW3HMi9nFnCKOgd3EB
   👉 Question 2 - Assume you have an endpoint (Example 1 below) that returns a JSON output (Example 2) when a GET request is performed and write a code snippet in Python and Javascript that performs a GET request to the Example 1 endpoint and loops through the JSON output from Example 2. Print the `name` and `id` fields, sorting by the `id` field.
 </h4>
 
+Response from the [API](https://randomuser.me/api/?inc=id,name,gender,dob,picture&nat=gb&results=10):
+![responseObj](https://user-images.githubusercontent.com/60519359/146336246-0ba16f26-3425-4a90-ba8f-2f0bbfbdea77.jpg)
+
+
 Javascript Code:
 ```
 const asyncGetCall = async () => { // asynchronous API call
@@ -65,6 +69,9 @@ const asyncGetCall = async () => { // asynchronous API call
 
 asyncGetCall(); // to call and run the above function
 ```
+Output:
+![q2](https://user-images.githubusercontent.com/60519359/146336119-5b1a32f6-f69b-42a4-a1b7-c47eb8f44ab9.jpg)
+
 
 Python Code:
 ```
@@ -87,6 +94,10 @@ for i in sorted_lis:
     print(i['name']['first'], " ", i['name']['last'], " ", i['dob']['age'])
 
 ```
+
+Output:
+![q2-python](https://user-images.githubusercontent.com/60519359/146336160-d47a4c8d-1cf8-4bbe-95e6-df36ba261db2.jpg)
+
 
 ✨ BONUS POINTS: cURL code:
 ```
